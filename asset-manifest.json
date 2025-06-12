@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Web-Portfolio/static/css/main.f56252eb.css",
+    "main.js": "/Web-Portfolio/static/js/main.f1ce864e.js",
+    "static/js/453.6f4065ad.chunk.js": "/Web-Portfolio/static/js/453.6f4065ad.chunk.js",
+    "static/media/favicon.ico": "/Web-Portfolio/static/media/favicon.4fe75d5f9adb18067b85.ico",
+    "static/media/python-icon.svg": "/Web-Portfolio/static/media/python-icon.ec18b52ae0d40e0ead6229b83c1dc14b.svg",
+    "static/media/react-native.svg": "/Web-Portfolio/static/media/react-native.dcaaee5c52057191198e22623fd65a7b.svg",
+    "static/media/cpp-icon.svg": "/Web-Portfolio/static/media/cpp-icon.01dbc774094949b5b9a270841558dc81.svg",
+    "static/media/c.svg": "/Web-Portfolio/static/media/c.e4fdeaba8d0089b21817b494790e869f.svg",
+    "static/media/instagram.svg": "/Web-Portfolio/static/media/instagram.b83a449e463cffc36962ac51822b4267.svg",
+    "static/media/linkedin.svg": "/Web-Portfolio/static/media/linkedin.701cb75d59581edc37a6b43b25f2b953.svg",
+    "static/media/js-icon.svg": "/Web-Portfolio/static/media/js-icon.47b5dfd234caf3e92d48eec87dba96a7.svg",
+    "static/media/html-icon.svg": "/Web-Portfolio/static/media/html-icon.51bea9b1da687edc005a786659ffbdc8.svg",
+    "static/media/github.svg": "/Web-Portfolio/static/media/github.29e865b17688c92733de84a60255364d.svg",
+    "index.html": "/Web-Portfolio/index.html",
+    "static/media/css-icon.svg": "/Web-Portfolio/static/media/css-icon.62afa64299431e7656fa5db2f43f9577.svg",
+    "main.f56252eb.css.map": "/Web-Portfolio/static/css/main.f56252eb.css.map",
+    "main.f1ce864e.js.map": "/Web-Portfolio/static/js/main.f1ce864e.js.map",
+    "453.6f4065ad.chunk.js.map": "/Web-Portfolio/static/js/453.6f4065ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f56252eb.css",
+    "static/js/main.f1ce864e.js"
+  ]
+}

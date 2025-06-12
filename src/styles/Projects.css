@@ -1,0 +1,120 @@
+.projects-container {
+    background-image: radial-gradient(ellipse at center, rgba(60, 60, 60, 0.726) 1%, rgba(0, 0, 0));
+    border: solid;
+    border-radius: 30px;
+    margin: auto;
+    width: 80%;
+    height: 750px;
+    margin-bottom: 40px;
+}
+
+.project-tabs {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+}
+
+.project-tab {
+    flex-grow: 1;
+    border: solid;
+    padding: 10px;
+    font-size: 12px;
+    width: 1px;
+    transition: background-color 0.2s ease;
+}
+
+.project-tab:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.project {
+    animation: zoom-in 0.5s ease forwards;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.content {
+    width: 70%;
+    height: auto;
+    margin: 0;
+}
+
+.left-arrow, .right-arrow {
+    text-align: center;
+    stroke: white;
+    fill: none;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.left-arrow {
+    transform: rotate(180deg);
+}
+
+.left-arrow:hover, .right-arrow:hover {
+    stroke: rgb(173, 173, 173);
+    animation: arrow-hover 0.3s ease forwards;
+}
+
+.description-label {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.description, .developed {
+    font-size: 14px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    line-height: 24px;
+    text-align: left;
+    padding: 40px 0;
+    border-width: 0.75px;
+}
+
+.developed {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(90, 214, 90);
+}
+
+.developed-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.description-details {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100px;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+@keyframes zoom-in {
+    from {
+        scale: 1.7;
+        opacity: 0.5;
+    } to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+@keyframes arrow-hover {
+    from {
+        stroke: white;
+        scale: 1;
+    } to {
+        stroke: rgb(162, 162, 162);
+        scale: 1.5;
+    }
+}

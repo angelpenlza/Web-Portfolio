@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Dongle&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: min(6vw, 30px);
+    background-color: black;
+    color: white;
+    padding:0;
+}
+
+html, body, .header, #root {
+    height: 100%;
+    margin: 0;
+}
+
+.header, .header-up {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    transform: scale(1);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.text {
+    height: 100vh;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header-up {
+    animation: shift-up 1s forwards;
+    margin-top: 70px;
+}
+
+.name {
+    text-align: center;
+    text-shadow: 
+        1px 2px 5px rgb(0, 117, 8),
+        0 0 0.1em greenyellow,
+        0 0 0.07em rgb(19, 190, 0);
+    color: rgb(164, 255, 164);
+    font-family: 'Alata', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    font-size: 60px;
+}
+
+.greeting {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.arrow {
+    font-family: 'Alata', sans-serif;
+    animation: fade-in 1s linear 0.5s forwards; 
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    background-color: rgb(78, 78, 78);
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 17px;
+    transform: translateY(-150px);
+    opacity: 0;
+}
+
+.arrow:hover {
+    transform: translateY(-150px) scale(1.5);
+    transition: transform 0.5s ease;
+}
+
+.hidden {
+    opacity: 0;
+    height: 0;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+}
+
+@keyframes fade-in {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+@keyframes shift-up {
+    from {height: 100%;}
+    to {height: 25%;}
+}
+
+

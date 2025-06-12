@@ -4,4 +4,5 @@ Completed
 Uncompleted
 - NO SUPPORT FOR MOBILE YET. 
 - Unoptimized code. 
+- unpolished aspects of the website (weird spacing, inconsistent font weights, etc)
 

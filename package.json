@@ -1,7 +1,7 @@
 {
   "name": "web-portfolio",
   "version": "0.1.0",
-  "homepage": "https://angelpenlza.github.io/web-portfolio",
+  "homepage": "https://angelpenlza.github.io/Web-Portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
